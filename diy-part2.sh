@@ -183,7 +183,7 @@ popd
 #git clone https://github.com/liuyr88/luci-app-chinadns-ng.git
 #mv luci-app-chinadns-ng/ package/
 mv package/community/openwrt-package/package/chinadns-ng/ tools/ng
-mv feeds/pw/chinadns-ng/ tools/ng1
+#mv feeds/pw/chinadns-ng/ tools/ng1
 git clone https://github.com/liuyr88/feeds-xiaoqingfeng.git
 mv feeds-xiaoqingfeng/luci-app-chinadns-ng/ package/community/openwrt-package/package/
 mv feeds-xiaoqingfeng/chinadns-ng/ package/community/openwrt-package/package/
