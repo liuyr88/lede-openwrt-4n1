@@ -48,9 +48,13 @@ mv lua-maxminddb/ package/
 #mv node-request/ package/
 #mv luci-app-jd-dailybonus/ package/
 #luci-app-ipsec-vpnserver
+#luci-app-pptp-vpnserver
 #rm -rf feeds/lienol/lienol/luci-app-ipsec-vpnserver-manyusers
 #git clone https://github.com/xiaoqingfengATGH/feeds-lienol
 #mv feeds-lienol/lienol/luci-app-ipsec-vpnserver-manyusers/ package/
+git clone https://github.com/Lienol/openwrt-package
+mv openwrt-package/luci-app-ipsec-server/ package/
+mv openwrt-package/luci-app-pptp-server/ package/
 #chinadns-ng
 #git clone https://github.com/liuyr88/luci-app-chinadns-ng.git
 #mv luci-app-chinadns-ng/ package/
